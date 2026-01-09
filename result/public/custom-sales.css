@@ -1,0 +1,672 @@
+.page-salespage .red-text {
+
+  color:#cc0000;
+
+}
+
+.page-salespage h1{
+
+  margin-left:auto;
+
+}
+
+.page-salespage h3 {
+
+  font-size: 33px;
+  font-weight: bolder;
+  font-family: 'Myriad Pro Bold', sans-serif !important;
+  color: #000;
+
+}
+
+.a:focus, a:hover { color: #23527c !important; }
+
+.page-salespage .m-red-title {
+
+    color: #cc0000 !important;
+    font-size: 36px !important;
+    font-family: 'Myriad Pro Bold', sans-serif !important;
+    line-height: 50px !important;
+    margin-top: 0px !important;
+    margin-bottom: 10px !important; 
+    text-align: center !important;
+    font-weight: bold;
+  
+  }
+  
+  .page-salespage .yellow-subtitle {
+
+    background: #ffcc33;
+    font-family: 'Myriad Pro Bold', sans-serif !important;
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 0px !important;
+    font-size: 30px !important;
+
+  }
+
+  .page-salespage p{
+
+    padding-left: 0 !important;
+
+  }
+ 
+  .page-salespage p, .page-salespage ul li {
+
+    font-size: 18px; 
+    color:#000;
+    font-family: 'Myriad Pro Regular', sans-serif;
+    padding-left:  10px;
+
+  }
+
+.page-salespage .top-thirty {
+
+    margin-top: 50px !important;
+
+} 
+
+.page-salespage .yellow-list-bg {
+
+    padding: 10px 30px;
+    background: #fff1d2;
+
+}
+
+.page-salespage .yellow-list-bg ul {
+
+    list-style-image: url('img/green-check.png');
+
+}
+
+.page-salespage .yellow-list-bg ul ::marker {
+
+    padding-top: 5px;
+
+}
+
+.page-salespage .list-highlight-yellow {
+
+  background: #fde2a3;
+  padding:3px;
+  display: inline-block;
+
+}
+
+.page-salespage .bottom-thirty {
+
+  margin-bottom: 50px !important;
+
+}
+
+.page-salespage .stronger {
+
+  font-weight: bold;
+
+} 
+
+.page-salespage .italic {
+
+  font-style: italic;
+
+}
+
+.page-salespage .highlight-padding {
+
+  padding: 5px;
+  display: inline-block;
+
+}
+
+.page-salespage .text-left {
+
+  text-align: left;
+
+}
+
+.page-salespage .image-container {
+
+  text-align: center;
+  margin: 40px auto;
+
+}
+
+.page-salespage .image-container img {
+
+  max-width: 650px;
+
+}
+
+.strike {
+
+  text-decoration:line-through;
+
+}
+
+.container-downloadnow {
+
+  border: 3px solid #f89356;
+  border-radius: 5px;
+
+}
+
+.container-downloadnow h3{
+
+  background: #f89356;
+  margin: auto;
+  padding: 25px 0;
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+
+}
+
+.container-downloadnow h2 {
+  
+  line-height: 1.3;
+  font-weight: bolder !important;
+  font-family: inherit !important;
+  margin: 20px auto !important;
+  color: #000;
+
+}
+
+.container-downloadnow .text-container-freebonuses{
+
+  text-align:center;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.container-downloadnow .text-container-freebonuses.list-highlight-yellow {
+
+  margin-top: -15px;
+  border-radius: 5px;
+
+}
+
+.container-downloadnow .text-container-freebonuses.list-highlight-yellow p {
+
+  text-align: center;
+  font-size: 13px;
+  padding: 0 15px !important;
+  font-weight: bold;
+  margin: auto !important;
+
+}
+
+.container-downloadnow .inner-container-downloadnow {
+
+  padding:0 25px 25px 25px;
+
+}
+
+.container-downloadnow .image-productbundle {
+
+  margin: 20px auto;
+
+}
+
+.container-downloadnow .image-productbundle img {
+
+  max-width:589px !important;
+
+}
+
+.image-downloadnowbutton img {
+
+  max-width: 600px !important;
+
+}
+
+.strike {
+
+  font-weight: bold;
+  font-size: 20px !important;
+
+}
+
+.container-downloadnow .red-title {
+
+  color: #cc0000 !important;
+  font-size: 25px !important;
+  font-family: 'Myriad Pro Bold', sans-serif !important;
+  line-height: 50px !important;
+  margin-top: 0px !important;
+  margin-bottom: 10px !important;
+  font-weight: bold;
+
+}
+
+.inner-container-downloadnow p {
+
+  margin-bottom: 10px !important;
+
+}
+
+.container-downloadnow .link-text, a.link-text{
+
+  text-decoration:underline;
+  color:#0000ff;
+
+}
+
+.container-downloadnow .money-back-guarantee img{
+
+  max-width: 80px !important;
+
+}
+
+.container-downloadnow .money-back-guarantee {
+
+  align-items: center;
+  max-width: 500px;
+  margin: 25px auto 5px;
+
+}
+
+.container-downloadnow .money-back-guarantee p {
+
+  font-family: 'Myriad Pro Bold', sans-serif !important;
+  text-align: left;
+  font-size: 20px;
+  font-style:italic;
+
+}
+
+.money-back-guarantee .col-sm-9 {
+
+  padding:0;
+
+}
+
+.container-downloadnow .text-green {
+
+  color: #1d872c !important;
+  font-size: 22px !important;
+  font-family: 'Myriad Pro Bold', sans-serif !important;
+  line-height: 1.5 !important;
+  margin-top: 0px !important;
+  margin-bottom: 20px !important;
+  font-weight: bold;
+
+}
+
+.container-background-gray {
+
+  background: #ededed;
+  border-radius: 25px
+
+}
+
+.container-inner-background-gray {
+
+  padding: 0 30px 30px 30px;
+
+}
+
+.container-background-gray h2 {
+
+  background: #cc0000 !important;
+  color: #fff !important;
+  padding: 25px 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+
+.container-background-gray .image-container img {
+
+  width: 100%;
+  max-width: 700px;
+  margin-left: -15px;
+
+}
+
+.container-inner-background-gray h3 {
+
+  font-size: 33px;
+  font-weight: bolder;
+  font-family: 'Myriad Pro Bold', sans-serif !important;
+  color: #000;
+
+}
+
+.container-inner-background-gray .underlined {
+
+  width: 100%;
+  height: 32px;
+  border: solid 3px #cc0000;
+  border-color: #cc0000 transparent transparent transparent;
+  border-radius: 170%/80px 90px 0 0;
+  margin-top: -10px;
+
+}
+
+.container-instant-access {
+
+  display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 10px;
+  padding: 0 15px;
+  margin: 30px auto;
+
+}
+
+.container-instant-access .first-div {
+
+  text-align:left;
+  width:50%;
+
+}
+
+.container-instant-access .second-div {
+
+  text-align:right;
+  width:50%;
+
+}
+
+.container-instant-access .text-free {
+
+  background: #63c779;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+
+}
+
+.container-lifechangingpresents h3{
+
+  margin:40px auto !important;
+
+}
+
+.container-lifechangingpresents .list-highlight-yellow{
+
+  padding:5px;
+
+}
+
+.container-lifechangingpresents img{
+
+  width:100%;
+  max-width:250px;
+
+}
+
+i.fas.fa-cloud-download-alt { color: #aeb6ca; }
+
+.container-downloadnow .image-container-layericon {
+
+  align-items: center;
+  max-width: 320px;
+  margin: 0 auto 30px;
+  display: flex;
+  
+}
+
+.container-downloadnow .image-container-layericon div{
+
+  width: 30%;
+  text-align: center;
+  margin: 0 5px;
+
+}
+
+/* COTNAINER SALESPAGE BLUEBACKGROUND */
+
+.container-salespage-bluebackground {
+
+  width: 100%;
+  margin: 0px auto;
+  min-height: 100%;
+  background: url(../public/img/container-salespage-bluebackground.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.container-salespage-bluebackground img{
+
+  width:100%;
+
+}
+
+.container-salespage-bluebackground .top-bar{
+
+  background:#031139;
+  padding:15px 0;
+
+}
+
+.container-salespage-bluebackground .top-text {
+
+  background:#031139;
+  padding:15px 10px;
+  margin:25px auto;
+  max-width: 600px;
+
+}
+
+.container-salespage-bluebackground .top-text h3{
+
+  font-size: 22px;
+  color:#fff;
+  font-family:'Myriad Pro semibold', sans-serif !important;
+  line-height:1.5;
+  margin: 0 auto;
+
+}
+
+.innercontainer-salespage-bluebackground{
+
+  max-width: 900px;
+  padding: 0 20px;
+  margin:auto;
+  padding-bottom: 25px;
+
+}
+
+.container-salespage-bluebackground h1 {
+
+  font-size: 45px;
+  line-height: 1.3;
+  font-family: 'Myriad Pro Bold', sans-serif !important;
+  margin: 15px auto;
+  color: #fff;
+  max-width: 600px;
+  font-weight:bold;
+
+}
+
+.innercontainer-salespage-bluebackground p{
+
+  font-size: 20px; 
+  color:#fff;
+  font-family: 'Myriad Pro Regular', sans-serif;
+
+}
+
+.innercontainer-salespage-bluebackground strong {
+
+  color:#fff;
+
+}
+
+.page-salespage .result-content-container {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* TESTIMONIALS */
+
+.innercontainer-testimonial {
+
+  background:#031139;
+  border-radius:10px;
+  margin-bottom:30px;
+
+}
+
+.innercontainer-testimonial .row {
+
+  padding: 50px 30px;
+  margin: 0 auto;
+
+}
+
+.container-testimonials {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.innercontainer-testimonial p.testimonial-text {
+
+  font-family: 'Myriad Pro Regular', sans-serif !important;
+  margin: auto !important;
+  color: #fff !important;
+  font-size: 23px;
+  text-align: left;
+  line-height: 1.5;
+  padding-left: 15px !important;
+
+}
+
+
+.testimonial-name p {
+
+  text-align: right !important;
+  color: #fff;
+  font-size: 28px;
+  margin: auto;
+  font-family: 'Myriad Pro Regular', sans-serif !important;
+
+}
+
+.innercontainer-testimonial .testimonial-name h2 {
+
+  text-align: right;
+  color: #0066ff;
+  font-size: 50px;
+  margin: auto;
+  margin-top: 35px;
+  font-family: Hoefler Text Black;
+  font-weight: bold;
+
+}
+
+.top-thirty.yellow-list-bg.bottom-thirty .list-disc li
+{
+
+  text-align:left !important;
+
+}
+
+.result-three-continued-salespage {
+
+  padding:0 15px;
+
+}
+
+.result-three-continued-salespage p {
+  
+  font-size: 16px !important;
+
+}
+
+
+@media only screen and (max-width:640px) {
+
+  .page-salespage .m-red-title { font-size:26px !important; line-height:1.3 !important; }
+
+  .page-salespage p { font-size:16px !important; }
+
+  .container-salespage-bluebackground .top-text h3 { font-size:20px; } 
+
+  .container-salespage-bluebackground h1 { font-size:30px; }
+
+  .page-salespage .container-salespage-bluebackground .yellow-subtitle { font-size:20px !important; }
+
+  .page-salespage .top-thirty { margin-top: 30px !important; }
+
+  .page-salespage .bottom-thirty { margin-bottom: 30px !important; }
+
+  .page-salespage .list-disc .list-highlight-yellow { display: block; }
+
+  /* - - - - - */
+
+  .strike { font-size:18px !important; } 
+
+  .responsive-center { text-align:center; }
+
+  .mobile-show { display:block !important; }
+ 
+  .mobile-hide { display:none !important; }
+
+  /* - - - - - */
+
+  .container-downloadnow h3 { font-size:18px !important; }
+
+  .container-downloadnow h2 { font-size:16px !important; }
+
+  .container-downloadnow .text-green { font-size:18px !important }
+
+  .row.available-fordownlaod { margin:auto; }
+
+  .row.available-fordownlaod .col-sm-1 { display: none; }
+
+  .container-downloadnow .link-text, a.link-text { font-size:11px !important; }
+
+  .container-downloadnow .text-container-freebonuses.list-highlight-yellow p { font-size:13px !important; }
+
+  .container-downloadnow .red-title { font-size:20px !important; }
+
+  /* - - - - - */
+
+  .container-inner-background-gray h3 { font-size: 25px !important; }
+
+  .row-lifechangingpresents p { margin-top:0; }
+
+  .row-lifechangingpresents .col-sm-4 { width: 40% !important; float: left !important; }
+
+  .row-lifechangingpresents .col-sm-8 { width: 60% !important; float: left !important; padding: 0 15px !important; }
+
+  .container-lifechangingpresents img { max-width: 400px; margin-top: 0 !important; }
+  
+  /* - - - - - */
+
+  .innercontainer-testimonial .col-sm-2 { float: left !important; width: 20% !important; }
+
+  .innercontainer-testimonial .col-sm-10 { float: left !important; width: 80% !important; }
+
+  .innercontainer-testimonial .row { padding: 30px 15px !important; margin: 0 auto !important; }
+
+  .innercontainer-testimonial .testimonial-name h2 { font-size:35px !important; margin-top:15px !important; }
+
+
+}
+
+@media only screen and (max-width:475px){
+
+  .container-instant-access { display:block !important; }
+
+  .container-instant-access .first-div,.container-instant-access .second-div { text-align: center !important; width: 100% !important; }
+
+  .container-instant-access .first-div p, .container-instant-access .second-div p { text-align:center !important; padding: 10px 0; margin: auto; }
+
+  .container-instant-access .first-div p { padding-bottom:0; }
+
+}
+
+
+
+
+
+

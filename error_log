@@ -1,0 +1,8 @@
+[06-Dec-2023 17:24:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/cosmicup/lovedaily.cosmicupdates.com/terms.php:225
+Stack trace:
+#0 {main}
+  thrown in /home/cosmicup/lovedaily.cosmicupdates.com/terms.php on line 225
+[18-Mar-2024 11:40:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/cosmicup/lovedaily.cosmicupdates.com/earnings.php:167
+Stack trace:
+#0 {main}
+  thrown in /home/cosmicup/lovedaily.cosmicupdates.com/earnings.php on line 167

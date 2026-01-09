@@ -1,0 +1,289 @@
+.remodal {
+    border-radius: 10px;
+}
+
+@media(min-width:599px){
+    .remodal h2{ font-size:17px; }
+    .remodal h2{ font-size:21px; }
+}
+
+.remodal h3{ font-size:23px; }
+
+.remodal h2,
+.remodal h3,
+.remodal p{ margin-bottom:10px; }
+
+.remodal .btnsubmit{
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    background: #cc33cc;
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid #cc33cc;
+    border-radius: 10px;
+    margin: 20px auto 0;
+    transition: all 0.5s;
+ }
+
+ .remodal .btnsubmit:hover{
+    color:#cc33cc;
+    background:#fff;
+    border: 2px solid #cc33cc;
+ }
+
+.none{ display:none; }
+
+.nav-guide p b { color:#ffff66; }
+
+.card-selected{
+    transition-duration:0.5s !important;
+    background-image: url('tarot-card-dark.jpg') !important;
+    background-color: #606060 !important;
+}
+
+.collapse{ display:none !important; }
+
+.instantly{
+    /* margin:12px !important; */
+    /* margin-left:12px !important;
+    margin-right:12px !important;
+    margin-bottom:30px !important; */
+    transition-duration:2s !important;
+    transition-property: margin margin-top margin-left margin-right margin-bottom !important;
+    transition-timing-function: ease-in-out !important;
+}
+
+.limit-cards{
+    transition: 0.5s all;
+
+    /* margin-left: 40%;
+    transform: translateX(-50%); */
+    
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
+
+    position: relative;
+    left: 0;
+    right: 0;
+    /* margin-left: 40%; */
+    margin-right: auto;
+    width: 150px;
+}
+.limit-cards-remove{
+    margin-left: 0 !important;
+    transform: translateX(0%) !important;
+    width:auto !important;
+}
+
+@media(max-width:1024px){
+    #love-reading {
+        padding-top: 0;
+        margin-top: -65px;
+    }
+}
+
+@media(min-width:768px){
+    .choose-wrap .col-md-3{ min-height: 274px }
+    /* .choose-wrap .col-md-9{ min-height: 82.5px; } */
+}
+@media(max-width:767px){
+    .limit-cards{ padding-left: 40%; }
+    div#cards-row-1 { margin-top: 25px; }
+    .choose-wrap .col-md-3{ min-height: 299px; }
+    .choose-wrap .col-md-9{ min-height: 98px; max-height:98px; }
+}
+
+@media(max-width:600px){
+    .limit-cards{ padding-left: 36%; }
+}
+
+@media(max-width:500px){
+    .limit-cards{ padding-left: 33%; }
+}
+
+@media(max-width:450px){
+    .limit-cards{ padding-left: 30%; }
+}
+
+@media(max-width:375px){
+    .limit-cards{ padding-left: 27%; }
+}
+
+[data-id="1"] { margin-left:1px; } 
+[data-id="2"] { margin-left:2px; }
+[data-id="3"] { margin-left:3px; } 
+[data-id="4"] { margin-left:4px; }
+[data-id="5"] { margin-left:5px; } 
+[data-id="6"] { margin-left:6px; }
+[data-id="7"] { margin-left:7px; } 
+[data-id="8"] { margin-left:8px; }
+[data-id="9"] { margin-left:9px; } 
+[data-id="10"] { margin-left:10px; }
+
+#pack_cont{
+    width: 100%;
+    max-width: 900px;
+    /*margin: 50px auto;
+    padding: 200px 140px;
+    border-radius: 30px;
+    margin-left: -125px;
+    margin-top: -155px; */
+    margin: 50px auto; 
+    padding: 50px 0;
+    border-radius: 30px;
+}
+
+div#cards-row-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card{
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+    
+    /*single card*/
+.card{
+    margin-bottom:24px;
+    margin-right: -144px;
+    float: left; 
+    width: 140px;
+    height: 250px;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    /* position: absolute; */
+    position: relative;
+    background-color: white;
+    background-image: url('tarot-card.jpg');
+    /* background: url(img/newCARD-min.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    text-align: center;
+
+    /*all transition to take 1s */
+    transition:all 1s;
+    -ms-transition:all 1s;
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    
+    /*set card transform origin to 20% from x-axis and 80% from y-axis */
+    transform-origin: 20% 80%;
+    -ms-transform-origin: 20% 80%;
+    -webikit-transform-origin: 20% 80%;
+    -moz-transform-origin: 20% 80%;
+    
+    /*make card non selectable*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+    
+/*red colored card*/
+.card.red{
+    color:red;
+}
+
+/*
+while opening a card, again shift transform origin 
+to vertical and horizontal center axis 
+to give an actual flip effect
+*/
+.card.open{
+    transform-origin: center center !important;
+    -ms-transform-origin: center center !important;
+    -webikit-transform-origin: center center !important;
+    -moz-transform-origin: center center !important;
+    -webkit-transform: rotateY(180deg) !important;
+    transform:  rotateY( 180deg ) !important;
+}
+
+/*to show card value */
+/*rotate the text to 180deg so the text is not mirrored when card is flipped*/
+/* opened card text*/
+.card.opened span:after{
+    content:attr(data-title);
+    transform: rotateY( 180deg );
+    font-size: 40px;
+    display: block;
+}
+
+/*hide background from open card */
+.card.opened{	
+    background-image: none;
+}
+
+.animated button{
+    cursor: pointer;
+}
+
+.animated button:hover {
+    color: #fff;
+    background: #23BAE0;
+}
+
+.animated button {
+    background: #B79310;
+    border: 0px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: none;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.2s linear;
+    margin: 20px 15px;
+    line-height: 1.5;
+    border-radius: 3px;
+    white-space: nowrap;
+    touch-action: manipulation;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.control { z-index:100 !important; }
+
+div#cards-row-1{
+    width: 100%;
+    max-width: 1000px;
+    /* margin: auto; */
+}
+
+/* @media(max-width:550px){
+    .cards-row-outer { margin-left:-25px !important; }
+} */
+
+.shuffling-cards{
+    margin-left:0;
+}
+
+@media(max-width:550px){
+    .shuffling-cards{
+        margin-left:15px !important;
+    }
+}
+
+@media(max-width:450px){
+    .shuffling-cards{
+        margin-left:45px !important;
+    }
+}
+
+@media(max-width:479px){
+    .instructions { 
+        /* width: 100% !important; 
+        position: unset !important; 
+        left: 0 !important; */
+        font-size:16px !important;
+        left:60% !important;
+    }
+    .reshuffle-info, .alert.text-shadow-minimal span{
+        font-size:16px !important;
+    }
+}

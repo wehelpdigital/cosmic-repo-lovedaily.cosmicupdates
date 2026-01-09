@@ -1,0 +1,4 @@
+[08-Aug-2020 10:56:24 CST6CDT] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/customer/www/trueloveanswers.com/public_html/img/pages/sitemap.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/trueloveanswers.com/public_html/img/pages/sitemap.php on line 1

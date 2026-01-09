@@ -1,0 +1,265 @@
+/* START - LAYOUT */
+
+body {
+  margin: 0 0 50px;
+}
+
+.content{ padding:0 !important; }
+
+#footer-outer #copyright, body {
+  border: none !important;
+  background-color: unset !important;
+}
+
+#results_page .result-container-sizing{
+  width: 100%;
+  /* max-width: 1320px; */
+  max-width: 900px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#results_page .result-container{
+  width: 100%;
+  /* max-width: 1320px; */
+  max-width: 900px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  position: relative;
+  background-color:#fff;
+  border-radius:15px;
+}
+
+#results_page .result-container-inner{
+  width: 100%;
+  /* max-width: 1100px; */
+  max-width: 780px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  position: relative;
+  border-radius:15px;
+}
+
+/* END - LAYOUT */
+
+/* START - COLOR */
+
+.dark-blue{ color:#011244 !important; }
+
+.dark-blue-2{ color:#0a1a49 !important; }
+
+.purple{ color:#5a13f3; }
+
+.red{ color:#cc0000; }
+
+.red-blue{ color:#913169 !important; }
+
+.white{ color:#ffffff !important; }
+
+/* END - COLOR */
+
+/* START - TYPOGRAPHY */
+
+#results_page h1.main-title{
+  font-size: 45px;
+  line-height: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 15px;
+  font-family: 'Poppins', sans-serif !important;
+  color: #000;
+  font-weight: bold;
+}
+
+#results_page h2.main-title{
+  font-family: 'Poppins', sans-serif;
+  font-size:38px;
+  color:#000;
+  line-height:1.5;
+  font-weight:bold;
+  text-align:center;
+  margin: 60px auto 30px;
+}
+
+#results_page h2.big-title{
+  font-family: 'Poppins', sans-serif;
+  font-size:43px;
+  line-height:1.5;
+  font-weight:bold;
+  text-align:center;
+}
+
+#results_page h3.medium-title{
+  font-family: 'Poppins', sans-serif;
+  font-size:33px;
+  line-height:1.5;
+  font-weight:bold;
+  text-align:center;
+}
+
+#results_page p {
+  font-family: 'Poppins', sans-serif !important;
+  margin-bottom: 20px;
+  font-size:16px;
+  color: #000;
+  line-height:1.5;
+  text-align: left;
+}
+
+#results_page p.bold {
+  font-size:22px;
+  font-weight:bold
+}
+
+h2.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif !important;
+  margin-bottom: 40px;
+}
+
+/* END - TYPOGRAPHY */
+
+/* START - IMAGES */
+
+img{
+  width:100%;
+}
+
+.img-container.secret-treasure-map,
+.img-container.the-answer,
+.format-youwill-discover {
+  margin: 50px auto 50px !important;
+}
+
+.img-container.cosmic-package img {
+  max-width: 460px;
+}
+
+.container-inner-download-now img {
+  max-width: 550px;
+}
+
+.img-container.money-back-guarantee img {
+  max-width: 300px;
+}
+
+.img-container.cosmic-values img {
+  max-width: 600px;
+}
+
+.img-container.testimonial img {
+  max-width: 700px;
+}
+
+.img-container.signature-angel-adams img {
+  max-width: 300px;
+}
+
+/* END - IMAGES */
+
+/* START - CONTAINER PURPLE */
+
+#results_page .container-purple{
+  background: #efe7fa;
+  padding: 20px 60px 60px 80px;
+  border-radius:20px;
+}
+
+#results_page .container-purple ul{
+  list-style: none;
+}
+
+#results_page .container-purple .list-disc li {
+  text-align: left !important;
+  font-family: 'Poppins', sans-serif !important;
+  margin: 10px 0 35px;
+  line-height: 30px;
+  font-size: 16px;
+  padding-left: 0;
+}
+
+#results_page .container-purple .list-disc li::before {
+  content: '';
+  display: inline-block;
+  height: 36px;
+  width: 36px;
+  background-size: cover;
+  background-image: url(../public/resultimg/check-mark.png);
+  background-repeat: no-repeat;
+  margin-right: 30px;
+  background-position: center center;
+  vertical-align: middle;
+  margin-top: -6px;
+  margin-left: -66px;
+}
+
+/* END - CONTAINERS PURPLE */
+
+/* START - CONTAINER MONEY BACK */
+
+.container-money-back h3.medium-title.white {
+  background: #913169;
+  max-width: 550px;
+  padding: 15px 0 25px;
+  line-height: 60px !important;
+  text-shadow: 0px 3px 9px rgb(0 0 0 / 73%);
+}
+
+.container-money-back{
+  border:10px solid #913169;
+  border-radius:15px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  margin: auto;
+  max-width: 700px;
+}
+
+.container-inner-money-back{
+  padding:0 30px 40px 30px;
+  margin: auto;
+  max-width: 830px;
+}
+
+
+/* END - CONTAINER MONEY BACK */
+
+/* START - CLICKBANK */
+
+.container-clickbank{
+  margin: 50px auto 0;
+}
+
+.container-clickbank p {
+  text-align: center !important;
+  max-width: 800px;
+  margin: auto;
+}
+
+#results_page p.smaller.m-auto {
+  font-size: 14px;
+}
+
+#results_page p.smaller a {
+  color: #999999;
+}
+
+/* END -  CLICKBANK */
+
+
+.container-secret-treasure-map {
+  width: 60vw;
+  position: relative;
+  left: calc(-30vw + 50%);
+}
+
+
+.modal-footer {
+  display: block;
+}
+

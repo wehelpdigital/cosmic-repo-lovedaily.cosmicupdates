@@ -1,0 +1,155 @@
+@media(max-width:1440px){
+
+    .container-secret-treasure-map {
+        width: 100vw !important;
+        position: relative !important;
+        left: calc(-50vw + 50%) !important;
+    }
+
+}
+
+@media(max-width:1200px){
+    #results_page .result-container-sizing{
+        padding:0 15px;
+    }
+    #results_page .img-container.moon-phases{
+        margin:30px auto 40px !important;
+    }
+    #results_page .result-container-inner{
+        padding: 15px 15px 40px !important;
+    }
+}
+
+@media(max-width:1024px){
+
+    .container-secret-treasure-map h2.big-title {
+        font-size: 28px !important;
+    }
+
+}
+
+@media(max-width:768px){
+
+    #results_page h2.main-title{
+        font-size:30px !important;
+    }
+    #results_page h2.big-title{
+        font-size: 26px !important;
+    }
+    #results_page h3.medium-title {
+        font-size: 22px !important;
+        line-height: 1.2 !important;
+    }
+
+    #results_page p.bold{
+        font-size:20px !important;
+    }
+    #results_page p,
+    #results_page .container-purple .list-disc li{
+        font-size:18px !important;
+    }
+
+    #results_page .row.align-items-center.my-5 {
+        margin: 20px auto !important;
+    }
+    #results_page .row.align-items-center.my-5 .col-md-5 {
+        padding: 0;
+    }
+
+    .img-container.secret-treasure-map,
+    .img-container.the-answer,
+    .format-youwill-discover {
+      margin: 30px auto 30px !important;
+    }
+
+    #results_page .container-purple{
+        padding: 20px 20px 20px 80px !important;
+    }
+    #results_page .container-purple ul{
+        margin-left:1em !important;
+    }
+    #results_page .container-purple .list-disc li{
+        margin: 10px 0 20px !important;
+    }
+    #results_page .container-purple .list-disc li::before{
+        margin-top:0 !important;
+    }
+
+    .row-free-gifts .col-md-4 img {
+        max-width: 360px !important;;
+    }
+
+    #results_page .row.image-card img{
+        max-width:260px;
+    }
+
+    #results_page .row.image-card .col-md-4{
+        padding:0 !important;
+    }
+
+    .container-inner-money-back{
+        padding:0 15px 40px 15px !important;
+    }
+
+    .container-secret-treasure-map .col-md-6.container-secret-treasure-map{
+        flex: 0 0 50%;
+        max-width: 50%;
+    } 
+
+    .show-mobile{ display:block !important; }
+
+    .show-desktop{ display:none !important; }
+
+    .container-secret-treasure-map img{ 
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .result-container h1.main-title{
+        margin-left: auto !important;
+        margin-right: auto;
+    }
+
+    .result-container .row.image-card img {
+        margin-bottom: 20px;
+    }
+
+    .result-container .row.image-card div:nth-child(2) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #results_page p.responsive-bold{
+        font-size:18px !important;
+        font-weight:normal !important;
+    }
+
+    #results_page h2.big-title,
+    #results_page h2.main-title{
+        line-height:1.2 !important;;
+    }
+
+    #results_page .responsive-br br{
+        display:none;
+    }
+
+    #results_page h1.main-title{
+        font-size:30px !important;
+        line-height:1.2 !important;
+        margin-bottom:30px !important;
+    }
+
+    h2.subtitle {
+        font-size: 20px !important;
+        line-height: 1.2 !important;
+        margin-bottom: 20px !important;
+    }
+
+}
+
+@media(max-width:628px){
+    #ouibounce-modal .modal{
+        width: 95%;
+        max-height: 275px !important;
+    }
+}
